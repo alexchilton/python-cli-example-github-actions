@@ -35,7 +35,7 @@ def run_lsblk(device):
                 return child
 
 def nonsense_to_trigger_build():
-    print("nonsense")
+    print("nonsense 2")
 
 def main(device):
     print(f"         '{run_lsblk(device)}'")
