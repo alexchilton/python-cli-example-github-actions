@@ -34,6 +34,8 @@ def run_lsblk(device):
             if child['name'] == device:
                 return child
 
+def nonsense_to_trigger_build():
+    print("nonsense")
 
 def main(device):
     print(f"         '{run_lsblk(device)}'")
